@@ -10,7 +10,7 @@ export default {
         // Labels de la derecha
         'light-red': 'hsl(0, 100%, 67%)',
         'orangey-yellow': 'hsl(39, 100%, 56%)',
-        'green-rtealed': 'hsl(166, 100%, 37%)',
+        'green-teal': 'hsl(166, 100%, 37%)',
         'cobalt-blue': 'hsl(234, 85%, 45%)',
         // Fondo (degradado)
         'slate-blue': 'hsl(252, 100%, 67%)',
@@ -31,6 +31,6 @@ export default {
       },
     },
   },
-  plugins: [],
+plugins: [],
 }
 
