@@ -1,4 +1,5 @@
 import React from 'react'
+import './Summary.css'
 
 const Summary = ({ data }) => {
     return (
@@ -22,7 +23,7 @@ const Summary = ({ data }) => {
                         <h2 className='font-extrabold text-gray-blue mb-5 text-lg'>Summary</h2>
                         <div id="elements" className='space-y-3 mb-9 md:min-h-52'>
                             {data && data.map((info, index) => (
-                                <div id={info.category} key={index} className={`flex flex-row justify-between p-3 bg-${info.color}/5 rounded-lg`}>
+                                <div id={info.category} key={index} className={`flex flex-row justify-between p-3 bg-${info.color} rounded-lg`}>
                                     <div id="title" className='flex flex-row space-x-2 items-center'>
                                         <img src={info.icon} alt="" className='w-4 h-4' />
                                         <p className={`text-${info.color} font-medium text-sm`}>{info.category}</p>

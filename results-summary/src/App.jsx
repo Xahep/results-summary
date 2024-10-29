@@ -14,25 +14,25 @@ function App() {
       "category": "Reaction",
       "score": 80,
       "icon": reactionIcon,
-      "color": "light-red"
+      "color": "light-red-custom"
     },
     {
       "category": "Memory",
       "score": 92,
       "icon": memoryIcon,
-      "color": "orangey-yellow"
+      "color": "orangey-yellow-custom"
     },
     {
       "category": "Verbal",
       "score": 61,
       "icon": verbalIcon,
-      "color": "green-teal"
+      "color": "green-teal-custom"
     },
     {
       "category": "Visual",
       "score": 72,
       "icon": visualIcon,
-      "color": "cobalt-blue"
+      "color": "cobalt-blue-custom"
     }
   ];
   const secondCardData = [
@@ -40,19 +40,19 @@ function App() {
       "category": "Reaction",
       "score": 80,
       "icon": reactionIcon,
-      "color": "light-red"
+      "color": "light-red-custom"
     },
     {
       "category": "Memory",
       "score": 92,
       "icon": memoryIcon,
-      "color": "orangey-yellow"
+      "color": "orangey-yellow-custom"
     },
     {
       "category": "Verbal",
       "score": 61,
       "icon": verbalIcon,
-      "color": "green-teal"
+      "color": "green-teal-custom"
     }
   ];
 
